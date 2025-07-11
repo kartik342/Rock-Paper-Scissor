@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    height: 100vh;
+}
+h1{
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    /* height: 5rem; */
+    font-weight: 200;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+    color: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+
+}
+
+.container{
+    width: 45%;
+    height: 85%;
+    min-width: 500px;
+    background-color: #ffffff;
+    padding: 30px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.3);
+}
+
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    /* object-fit: cover; */
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#rock:hover{
+    border: 5px solid rgb(232, 63, 91);
+}
+#paper:hover{
+    border: 5px solid blueviolet;
+}
+#scissor:hover{
+    border: 5px solid blue;
+}
+
+.scores{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+    /* font-weight: 600; */
+    padding-right: 70px;
+    font-size: larger;
+    letter-spacing: 0.5px;
+}
+.score{
+    margin-top: 0.5rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+.msg-container{
+    /* width: full; */
+    /* height: 20%; */
+    text-align: center;
+}
+
+#user-choice{
+    margin: 20px;
+}
+#user-choice,#comp-choice{
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 10px;
+    /* letter-spacing: 0.2px; */
+    word-spacing: 7px;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+#result{
+    width: 200px;
+    padding: 15px;
+    font-size: larger;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+}
