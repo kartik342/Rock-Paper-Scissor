@@ -2,6 +2,11 @@
 
 A responsive and interactive Rock Paper Scissors game built using **HTML**, **CSS**, and **JavaScript**. The user can select rock, paper, or scissors, and the computer randomly picks a move. The scores are updated in real-time, and the result is displayed with styled messages.
 
+Built a full-stack Blog App using Node.js, Express, MongoDB, and EJS — features user
+authentication (login, logout, registration), and allows users to create, edit, like, and delete
+posts. Implemented JWT-based auth and dynamic EJS templating to render personalized
+user dashboards and post interactions.
+
 ## 🔥 Features
 
 - Clean and responsive UI
